@@ -9,7 +9,7 @@ export default hopeTheme({
 
   editLink: false,
   // Замінити на назву свого репозиторія
-  repo: "dimatortik/db-course-hope-template",
+  repo: "samoilenkomariia/db-coursework",
 
   docsDir: "docs",
   // navbar
@@ -19,7 +19,7 @@ export default hopeTheme({
   sidebar,
 
   // Підставити рік та Ваше імʼя
-  footer: "ECL 2.0 Licensed | Copyright © [YYYY] [Your Name] ",
+  footer: "ECL 2.0 Licensed | Copyright © 2024 Mariia Samoilenko ",
 
   displayFooter: true,
 
