@@ -147,7 +147,7 @@
 
 Спіральна методологія концентрується на ризик-орієнтованому програмуванні. Вона включає в себе ітеративний підхід та прототипування для уникнення будь-яких ризиків. Спіральна методологія включає наступні етапи: планування, аналіз ризиків, розробка та оцінка.
 
-![spiral_methodology](https://training.qatestlab.com/wp-content/uploads/2021/09/Spiral-model.jpg)
+![spiral_methodology](https://www.intellectsoft.net/blog/wp-content/uploads/spiral-model-process-1024x844.jpg)
 
 **Переваги:**
 
