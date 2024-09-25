@@ -20,13 +20,15 @@
 - Вихід на ринок
 - Технічна підтримка
 
-[**Життєвий цикл**](https://wezom.com.ua/ua/blog/metodologija-razrabotki-programmnogo-obespechenija) – Це чіткий план дій, що дозволяє зрозуміти, що має вийти в розробників, як досягти результату та які методи для цього використати. [**Методологія розробки програмного забезпечення**](https://wezom.com.ua/ua/blog/metodologija-razrabotki-programmnogo-obespechenija) — це перевірені способи та практики, що дозволяють створити діджитал-продукт правильно та якісно. В IT існує декілька фундаментальних методик розробки програмного забезпечення.
+#### //перемістити це добро у основні визначення або прибрати
+[**Життєвий цикл**](https://wezom.com.ua/ua/blog/metodologija-razrabotki-programmnogo-obespechenija) – Це чіткий план дій, що дозволяє зрозуміти, що має вийти в розробників, як досягти результату та які методи для цього використати. [**Методологія розробки програмного забезпечення**](https://wezom.com.ua/ua/blog/metodologija-razrabotki-programmnogo-obespechenija) — це перевірені способи та практики, що дозволяють створити діджитал-продукт правильно та якісно. В IT існує декілька фундаментальних методик розробки програмного забезпечення. 
+#### //
 
 ### Методологія Waterfall або Каскадна методологія
 
 **Waterfall** – найпоширеніша, традиційна та логічна методологія управління проєктами. Вона передбачає розбиття процесу на етапи та їхнє послідовне виконання без можливості хаотично переходити між етапами.
 
-![waterfall_methodology](https://startinfinity.s3.us-east-2.amazonaws.com/t/zqeUd4rpCH4mtqsKCDdu5BCanjP9GecjRMYW7Agi.png)
+![Схема Waterfall](https://startinfinity.s3.us-east-2.amazonaws.com/t/zqeUd4rpCH4mtqsKCDdu5BCanjP9GecjRMYW7Agi.png)
 
 **Переваги:**
 
@@ -43,7 +45,7 @@
 
 **Agile** – це гнучка методологія розробки програмного забезпечення, яка акцентує увагу на швидкій ітераційній розробці, постійній адаптації до змін та активній співпраці між командою і замовником.
 
-![agile_methodology](https://media.licdn.com/dms/image/v2/D4E12AQGVP6FfzYsrig/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1713362328326?e=2147483647&v=beta&t=M7EJfxO2o1DdxdmQ6xFjTBHTC-v6lHropNEQhseIy3c)
+![Схема Agile](https://media.licdn.com/dms/image/v2/D4E12AQGVP6FfzYsrig/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1713362328326?e=2147483647&v=beta&t=M7EJfxO2o1DdxdmQ6xFjTBHTC-v6lHropNEQhseIy3c)
 
 **Переваги:**
 
@@ -59,7 +61,7 @@
 ### Методологія Scrum
 **Scrum** насправді є підмножиною методології Agile. Так само передбачає розробку короткими циклами, але також і з використанням спринтів. Спринт – це обмежений у часі період розробки, який зазвичай триває від 2 до 4 тижнів. Методологія Scrum передбачає наступні ролі: власник продукту, скрам-майстер і команда розробників.
 
-![scrum_methodology](https://www.nimblework.com/wp-content/uploads/2022/12/scrum-methodology.webp)
+![Схема Scrum](https://www.nimblework.com/wp-content/uploads/2022/12/scrum-methodology.webp)
 
 **Переваги:**
 
@@ -77,7 +79,7 @@
 
 **Kanban** — це гнучка методологія управління проєктами та процесами, яка фокусується на візуалізації робочого процесу та безперервному вдосконаленні. Дошка Канбан розділена на колонки, які представляють етапи розробки. Кожне завдання представлене карткою, яка переміщується по дошці в міру проходження етапів розробки. Методологія Канбан передбачає наступні етапи: “потрібно зробити”, “в процесі” і “зроблено”.
 
-![kanban_methodology](https://www.diegocalvo.es/wp-content/uploads/2018/04/KANBAN-Methodology.png)
+![Схема Kanban](https://www.diegocalvo.es/wp-content/uploads/2018/04/KANBAN-Methodology.png)
 
 **Переваги:**
 
@@ -91,9 +93,9 @@
 
 ### Методологія Lean
 
-**Lean** – це клієнтоорієнтований підхід до розробки програмного забезпечення. Він передбачає безперервне створення цінності для замовника. Методологія Lean включає наступні етапи: визначення, вимірювання, аналіз, покращення та контроль.
+**Lean** – це клієнтоорієнтований підхід до розробки програмного забезпечення. Він передбачає безперервне створення цінності для замовника та усунунення перешкод для розробки. Lean допомагає заощаджувати без втрати якості та позбутися зайвих процесів з алгоритму роботи компанії. Методологія Lean включає наступні етапи: визначення, вимірювання, аналіз, покращення та контроль.
 
-![lean_methodology](https://media.licdn.com/dms/image/C4E12AQHWEjyiS_SxKQ/article-cover_image-shrink_600_2000/0/1625735116083?e=2147483647&v=beta&t=Oti2PlxG-miZ0ma2KJ99luIYoYAtkfTjAvd9fwr3GBA)
+![Схема Lean](https://media.licdn.com/dms/image/C4E12AQHWEjyiS_SxKQ/article-cover_image-shrink_600_2000/0/1625735116083?e=2147483647&v=beta&t=Oti2PlxG-miZ0ma2KJ99luIYoYAtkfTjAvd9fwr3GBA)
 
 **Переваги:**
 
@@ -105,13 +107,13 @@
 
 - Вимагає значних зусиль для інтеграції та зміни організації
 - Неправильне використання може призвести до недофінансування важливих аспектів
-- Важко підтримувати довгострокові проєкти
+- Важче підтримувати довгострокові проєкти
 
 ### Методологія DevOps
 
 **DevOps** – це підхід, який поєднує розробку програмного забезпечення та ІТ-операції. Він передбачає використання автоматизації та співпраці для підвищення швидкості та якості розробки програмного забезпечення. Методологія DevOps включає наступні етапи: планування, кодування, збірка, тестування, випуск, розгортання, експлуатація та моніторинг.
 
-![devops_methodology](https://media.licdn.com/dms/image/v2/D5612AQH2nnE3jXGbcg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1703066071742?e=2147483647&v=beta&t=AxhSnP1A3ujubIYHvURwxsbMg4SViXsqTYPuGDrry-g)
+![Схема DevOps](https://media.licdn.com/dms/image/v2/D5612AQH2nnE3jXGbcg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1703066071742?e=2147483647&v=beta&t=AxhSnP1A3ujubIYHvURwxsbMg4SViXsqTYPuGDrry-g)
 
 **Переваги:**
 
@@ -128,7 +130,7 @@
 
 **RAD** – це методологія розробки програмного забезпечення, яка фокусується на швидкій розробці та постійній взаємодії з користувачем. Основна мета – скорочення часу розробки завдяки прототипуванню, ітераційному підходу та мінімальній попередній підготовці.
 
-![rad_methodology](https://kissflow.com/hs-fs/hubfs/Rapid-application-development.png?width=836&height=442&name=Rapid-application-development.png)
+![Схема Rad](https://kissflow.com/hs-fs/hubfs/Rapid-application-development.png?width=836&height=442&name=Rapid-application-development.png)
 
 **Переваги:**
 
@@ -146,11 +148,11 @@
 
 **Спіральна методологія** концентрується на ризик-орієнтованому програмуванні. Вона включає в себе ітеративний підхід та прототипування для уникнення будь-яких ризиків. Спіральна методологія включає наступні етапи: планування, аналіз ризиків, розробка та оцінка.
 
-![spiral_methodology](https://www.intellectsoft.net/blog/wp-content/uploads/spiral-model-process-1024x844.jpg)
+![Схема Spiral](https://www.intellectsoft.net/blog/wp-content/uploads/spiral-model-process-1024x844.jpg)
 
 **Переваги:**
 
-- Легше виявлення недоліків на кожному етапі
+- Легке виявлення недоліків на кожному етапі
 - Легка адаптація до змін
 - Підходить для складних проєктів
 
@@ -164,7 +166,7 @@
 
 **Методологія XP** акцентує увагу на продокуванні якісного коду, легкому підлаштуванні під вимоги клієнта та комунікації між командою розробників і клієнтом. Основні практики: парне програмування, безперервне тестування, часті релізи, створення стандартів, рефакторинг
 
-![xp_methodology](https://i0.wp.com/thecorrelation.in/wp-content/uploads/2022/06/Extreme-Programming-XP-1024x548-8ca41d10.jpg?ssl=1)
+![Схема XP](https://i0.wp.com/thecorrelation.in/wp-content/uploads/2022/06/Extreme-Programming-XP-1024x548-8ca41d10.jpg?ssl=1)
 
 **Переваги:**
 
