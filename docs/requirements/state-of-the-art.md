@@ -276,13 +276,13 @@
 
 **Основні визначення:** 
 - [Проєкт](https://www.pmi.org/about/what-is-a-project) 
-- [Життєвий цикл проєкту](https://www.pmi.org/about/what-is-a-project),
-- [Фази життєвого циклу проєкту](https://www.pmi.org/about/what-is-a-project),
-- [Управління проєктами](https://www.pmi.org/about/what-is-project-management),
-- [Система управління проєктами](https://www.sciencedirect.com/topics/computer-science/project-management-software),
-- [Розробка програмного забезпечення](https://github.com/resources/articles/software-development/what-is-software-development),
-- [Життєвий цикл програмного забезпечення](https://github.com/resources/articles/software-development/what-is-sdlc),
-- [Методологія розробки програмного забезпечення](https://github.com/resources/articles/software-development/what-is-sdlc),
+- [Життєвий цикл проєкту](https://www.pmi.org/about/what-is-a-project)
+- [Фази життєвого циклу проєкту](https://www.pmi.org/about/what-is-a-project)
+- [Управління проєктами](https://www.pmi.org/about/what-is-project-management)
+- [Система управління проєктами](https://www.sciencedirect.com/topics/computer-science/project-management-software)
+- [Розробка програмного забезпечення](https://github.com/resources/articles/software-development/what-is-software-development)
+- [Життєвий цикл програмного забезпечення](https://github.com/resources/articles/software-development/what-is-sdlc)
+- [Методологія розробки програмного забезпечення](https://github.com/resources/articles/software-development/what-is-sdlc)
 - [Вимоги до програмного забезпечення](https://www.computer.org/resources/software-requirements-specifications)
 
   
