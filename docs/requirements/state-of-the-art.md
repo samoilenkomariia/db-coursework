@@ -272,9 +272,24 @@
 
 ## Посилання
 
-*[Розділ містить повний список всіх документів, про які згадується.]*
+### Основні посилання
 
-**Офіційна документація:**
+**Основні визначення:** 
+- [Проєкт](https://www.pmi.org/about/what-is-a-project) 
+- [Життєвий цикл проєкту](https://www.pmi.org/about/what-is-a-project),
+- [Фази життєвого циклу проєкту](https://www.pmi.org/about/what-is-a-project),
+- [Управління проєктами](https://www.pmi.org/about/what-is-project-management),
+- [Система управління проєктами](https://www.sciencedirect.com/topics/computer-science/project-management-software),
+- [Розробка програмного забезпечення](https://github.com/resources/articles/software-development/what-is-software-development),
+- [Життєвий цикл програмного забезпечення](https://github.com/resources/articles/software-development/what-is-sdlc),
+- [Методологія розробки програмного забезпечення](https://github.com/resources/articles/software-development/what-is-sdlc),
+- [Вимоги до програмного забезпечення](https://www.computer.org/resources/software-requirements-specifications)
+
+  
+**Схеми та малюнки:** [1](https://startinfinity.s3.us-east-2.amazonaws.com/t/zqeUd4rpCH4mtqsKCDdu5BCanjP9GecjRMYW7Agi.png), [2](https://media.licdn.com/dms/image/v2/D4E12AQGVP6FfzYsrig/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1713362328326?e=2147483647&v=beta&t=M7EJfxO2o1DdxdmQ6xFjTBHTC-v6lHropNEQhseIy3c), [3](https://www.nimblework.com/wp-content/uploads/2022/12/scrum-methodology.webp), [4](https://www.diegocalvo.es/wp-content/uploads/2018/04/KANBAN-Methodology.png), [5](https://media.licdn.com/dms/image/C4E12AQHWEjyiS_SxKQ/article-cover_image-shrink_600_2000/0/1625735116083?e=2147483647&v=beta&t=Oti2PlxG-miZ0ma2KJ99luIYoYAtkfTjAvd9fwr3GBA), [6](https://media.licdn.com/dms/image/v2/D5612AQH2nnE3jXGbcg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1703066071742?e=2147483647&v=beta&t=AxhSnP1A3ujubIYHvURwxsbMg4SViXsqTYPuGDrry-g), [7](https://kissflow.com/hs-fs/hubfs/Rapid-application-development.png?width=836&height=442&name=Rapid-application-development.png), [8](https://www.intellectsoft.net/blog/wp-content/uploads/spiral-model-process-1024x844.jpg), [9](https://i0.wp.com/thecorrelation.in/wp-content/uploads/2022/06/Extreme-Programming-XP-1024x548-8ca41d10.jpg?ssl=1)
+
+
+### Офіційна документація:
 
 - [Документація GitHub Projects](https://docs.github.com/en/github/managing-your-work-on-github/about-projects)
 - [Документація Trello](https://trello.com/guide)
@@ -283,9 +298,9 @@
 - [Документація Backlog](https://backlog.com/help/)
 - [Документація Asana](https://asana.com/guide)
 - [Документація Jira](https://www.atlassian.com/software/jira/guides)
-- [Документація Microsoft Project](https://support.microsoft.com/en-us/project
+- [Документація Microsoft Project](https://support.microsoft.com/en-us/project)
 
-**Додаткова інформація**
+### Додаткова інформація
 
 1. **PMI (Project Management Institute)**  
    [PMI](https://www.pmi.org/) - провідна організація з управління проєктами, яка надає ресурси, навчальні матеріали та сертифікації.
