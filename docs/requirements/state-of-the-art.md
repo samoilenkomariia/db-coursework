@@ -2,15 +2,15 @@
 
 ## Вступ
 
-В цій лабораторній роботі буде розглянуто основні етапи розробки програмного забезпечення, починаючи від планування і збору вимог до тестування та технічної підтримки. Окрему увагу буде приділено популярним методологіям, таким як Waterfall, Agile, Scrum, і т.д., а також їх перевагам і недолікам. Також буде проведено порівняльний аналіз існуючих інструментів для управління проєктами, таких як GitHub Projects, Trello, та інші, на основі критеріїв FURPS, щоб визначити їхню придатність для різних типів команд і проєктів.
+Під час аналізу предметної області окрему увагу буде приділено відомим методологіям, таким як Waterfall, Agile, Scrum, і т.д., а також їх перевагам і недолікам. Також буде проведено порівняльний аналіз існуючих інструментів для управління проєктами, таких як GitHub Projects, Trello, та інші, на основі критеріїв FURPS, щоб визначити їхню придатність для різних типів команд і проєктів.
 
-Структура самої лабораторної роботи є наступньою:
+В аналіз предметної області входять:
 
-- [Основні визначення](https://github.com/samoilenkomariia/db-coursework/edit/lab1-domain-analysis-4/docs/requirements/state-of-the-art.md#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%96-%D0%B2%D0%B8%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F)
-- [Підходи та способи вирішення завдання](https://github.com/samoilenkomariia/db-coursework/edit/lab1-domain-analysis-4/docs/requirements/state-of-the-art.md#%D0%BF%D1%96%D0%B4%D1%85%D0%BE%D0%B4%D0%B8-%D1%82%D0%B0-%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8-%D0%B2%D0%B8%D1%80%D1%96%D1%88%D0%B5%D0%BD%D0%BD%D1%8F-%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D0%BD%D1%8F)
-- [Порівняльна характеристика існуючих засобів вирішення завдання](https://github.com/samoilenkomariia/db-coursework/edit/lab1-domain-analysis-4/docs/requirements/state-of-the-art.md#%D0%BF%D0%BE%D1%80%D1%96%D0%B2%D0%BD%D1%8F%D0%BB%D1%8C%D0%BD%D0%B0-%D1%85%D0%B0%D1%80%D0%B0%D0%BA%D1%82%D0%B5%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0-%D1%96%D1%81%D0%BD%D1%83%D1%8E%D1%87%D0%B8%D1%85-%D0%B7%D0%B0%D1%81%D0%BE%D0%B1%D1%96%D0%B2-%D0%B2%D0%B8%D1%80%D1%96%D1%88%D0%B5%D0%BD%D0%BD%D1%8F-%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D0%BD%D1%8F)
-- [Висновки](https://github.com/samoilenkomariia/db-coursework/edit/lab1-domain-analysis-4/docs/requirements/state-of-the-art.md#%D0%B2%D0%B8%D1%81%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8)
-- [Посилання](https://github.com/samoilenkomariia/db-coursework/edit/lab1-domain-analysis-4/docs/requirements/state-of-the-art.md#%D0%BF%D0%BE%D1%81%D0%B8%D0%BB%D0%B0%D0%BD%D0%BD%D1%8F)
+- [Основні визначення](https://samoilenkomariia.github.io/db-coursework/requirements/state-of-the-art.html#основні-визначення), що допоможуть користувачу зрозуміти структуру проекту, та терміни, які будуть зустрічатися під час аналізу.
+- [Підходи та способи вирішення завдання](https://samoilenkomariia.github.io/db-coursework/requirements/state-of-the-art.html#підходи-та-способи-вирішення-завдання) під час розробки програмного забезпечення.
+- [Порівняльна характеристика існуючих засобів вирішення завдання](https://samoilenkomariia.github.io/db-coursework/requirements/state-of-the-art.html#порівняльна-характеристика-існуючих-засобів-вирішення-завдання) з детальним розбором їхніх переваг і недоліків відповідно до критеріїв FURPS.
+- [Висновки](https://samoilenkomariia.github.io/db-coursework/requirements/state-of-the-art.html#висновки)
+- [Посилання](https://samoilenkomariia.github.io/db-coursework/requirements/state-of-the-art.html#посилання)
 
 ## Основні визначення
 
