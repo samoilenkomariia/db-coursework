@@ -284,32 +284,28 @@
 
 ## Посилання
 
-*[Розділ містить повний список всіх документів, про які згадується.]*
+1. [Проєкт](https://www.pmi.org/about/what-is-a-project)
+2. [Життєвий цикл проєкту](https://www.pmi.org/about/what-is-a-project)
+3. [Фази життєвого циклу проєкту](https://www.pmi.org/about/what-is-a-project)
+4. [Управління проєктами](https://www.pmi.org/about/what-is-project-management)
+5. [Система управління проєктами](https://www.sciencedirect.com/topics/computer-science/project-management-software)
+6. [Розробка програмного забезпечення](https://github.com/resources/articles/software-development/what-is-software-development)
+7. [Життєвий цикл програмного забезпечення](https://github.com/resources/articles/software-development/what-is-sdlc)
+8. [Методологія розробки програмного забезпечення](https://github.com/resources/articles/software-development/what-is-sdlc)
+9. [Вимоги до програмного забезпечення](https://www.computer.org/resources/software-requirements-specifications)
+10. Схеми: [[1]](https://startinfinity.s3.us-east-2.amazonaws.com/t/zqeUd4rpCH4mtqsKCDdu5BCanjP9GecjRMYW7Agi.png), [[2]](https://media.licdn.com/dms/image/v2/D4E12AQGVP6FfzYsrig/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1713362328326?e=2147483647&v=beta&t=M7EJfxO2o1DdxdmQ6xFjTBHTC-v6lHropNEQhseIy3c), [[3]](https://www.nimblework.com/wp-content/uploads/2022/12/scrum-methodology.webp), [[4]](https://www.diegocalvo.es/wp-content/uploads/2018/04/KANBAN-Methodology.png), [[5]](https://media.licdn.com/dms/image/C4E12AQHWEjyiS_SxKQ/article-cover_image-shrink_600_2000/0/1625735116083?e=2147483647&v=beta&t=Oti2PlxG-miZ0ma2KJ99luIYoYAtkfTjAvd9fwr3GBA), [[6]](https://media.licdn.com/dms/image/v2/D5612AQH2nnE3jXGbcg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1703066071742?e=2147483647&v=beta&t=AxhSnP1A3ujubIYHvURwxsbMg4SViXsqTYPuGDrry-g), [[7]](https://kissflow.com/hs-fs/hubfs/Rapid-application-development.png?width=836&height=442&name=Rapid-application-development.png), [[8]](https://www.intellectsoft.net/blog/wp-content/uploads/spiral-model-process-1024x844.jpg), [[9]](https://i0.wp.com/thecorrelation.in/wp-content/uploads/2022/06/Extreme-Programming-XP-1024x548-8ca41d10.jpg?ssl=1)
+11. [About GitHub Projects](https://docs.github.com/en/github/managing-your-work-on-github/about-projects)
+12. [About Trello](https://trello.com/guide)
+13. [About Basecamp](https://basecamp.com/help)
+14. [About Nifty](https://niftypm.com/docs)
+15. [About Backlog](https://backlog.com/help/)
+16. [About Asana](https://asana.com/guide)
+17. [About Jira](https://www.atlassian.com/software/jira/guides)
+18. [About Microsoft Project](https://support.microsoft.com/en-us/project)
+19. [Project Management Institute](https://www.pmi.org/)
+20. [Scrum Alliance](https://www.scrumalliance.org/) 
+21. [Atlassian Agile Coach](https://www.atlassian.com/agile) 
+22. [Basecamp Guides](https://basecamp.com/guides) 
+23. [Smartsheet Learning Center](https://www.smartsheet.com/content-center)
 
-**Офіційна документація:**
-
-- [Документація GitHub Projects](https://docs.github.com/en/github/managing-your-work-on-github/about-projects)
-- [Документація Trello](https://trello.com/guide)
-- [Документація Basecamp](https://basecamp.com/help)
-- [Документація Nifty](https://niftypm.com/docs)
-- [Документація Backlog](https://backlog.com/help/)
-- [Документація Asana](https://asana.com/guide)
-- [Документація Jira](https://www.atlassian.com/software/jira/guides)
-- [Документація Microsoft Project](https://support.microsoft.com/en-us/project
-
-**Додаткова інформація**
-
-1. **PMI (Project Management Institute)**  
-   [PMI](https://www.pmi.org/) - провідна організація з управління проєктами, яка надає ресурси, навчальні матеріали та сертифікації.
-
-2. **Scrum Alliance**  
-   [Scrum Alliance](https://www.scrumalliance.org/) - ресурс, присвячений методології Scrum, включаючи практики управління проєктами.
-
-3. **Atlassian Agile Coach**  
-   [Atlassian Agile Coach](https://www.atlassian.com/agile) - ресурси та статті про гнучкі методології, управління проєктами, Jira і інші інструменти Atlassian.
-
-4. **Basecamp Guides**  
-   [Basecamp Guides](https://basecamp.com/guides) - офіційні посібники та ресурси для використання Basecamp у управлінні проектами.
-
-5. **Smartsheet Learning Center**  
-   [Smartsheet Learning Center](https://www.smartsheet.com/content-center) - навчальні матеріали та статті про управління проектами за допомогою Smartsheet.
+  
