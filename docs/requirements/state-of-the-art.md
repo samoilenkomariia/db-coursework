@@ -42,8 +42,10 @@
 - Розробка
 - Тестування
 - Вихід на ринок
-- Технічна підтримка
-
+- Технічна підтримка  
+  
+Методології розробки ПЗ визначають структуру життєвого циклу. Тож розгляньмо перелік основних методологій:  
+  
 ### Методологія Waterfall або Каскадна методологія
 
 **Waterfall** – найпоширеніша, традиційна та логічна методологія управління проєктами. Вона передбачає розбиття процесу на етапи та їхнє послідовне виконання без можливості хаотично переходити між етапами.
@@ -58,8 +60,9 @@
 
 **Недоліки:**
 
-- Не підходить для складних і тривалих проєктів
-- Важке пристосування до змін
+- Не підходить для складних і тривалих проєктів, оскільки навіть невеликі помилки або зміни можуть призвести до значних затримок
+- Важке пристосування до змін у вимогах
+- Мала взаємодія із замовником під час розробки
 
 ### Методологія Agile або Гнучка методологія
 
@@ -303,7 +306,7 @@
 7. [Життєвий цикл програмного забезпечення](https://github.com/resources/articles/software-development/what-is-sdlc)
 8. [Методологія розробки програмного забезпечення](https://github.com/resources/articles/software-development/what-is-sdlc)
 9. [Вимоги до програмного забезпечення](https://www.computer.org/resources/software-requirements-specifications)
-10. Схеми: [[1]](https://startinfinity.s3.us-east-2.amazonaws.com/t/zqeUd4rpCH4mtqsKCDdu5BCanjP9GecjRMYW7Agi.png), [[2]](https://media.licdn.com/dms/image/v2/D4E12AQGVP6FfzYsrig/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1713362328326?e=2147483647&v=beta&t=M7EJfxO2o1DdxdmQ6xFjTBHTC-v6lHropNEQhseIy3c), [[3]](https://www.nimblework.com/wp-content/uploads/2022/12/scrum-methodology.webp), [[4]](https://www.diegocalvo.es/wp-content/uploads/2018/04/KANBAN-Methodology.png), [[5]](https://media.licdn.com/dms/image/C4E12AQHWEjyiS_SxKQ/article-cover_image-shrink_600_2000/0/1625735116083?e=2147483647&v=beta&t=Oti2PlxG-miZ0ma2KJ99luIYoYAtkfTjAvd9fwr3GBA), [[6]](https://media.licdn.com/dms/image/v2/D5612AQH2nnE3jXGbcg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1703066071742?e=2147483647&v=beta&t=AxhSnP1A3ujubIYHvURwxsbMg4SViXsqTYPuGDrry-g), [[7]](https://kissflow.com/hs-fs/hubfs/Rapid-application-development.png?width=836&height=442&name=Rapid-application-development.png), [[8]](https://www.intellectsoft.net/blog/wp-content/uploads/spiral-model-process-1024x844.jpg), [[9]](https://i0.wp.com/thecorrelation.in/wp-content/uploads/2022/06/Extreme-Programming-XP-1024x548-8ca41d10.jpg?ssl=1)
+10. Схеми: [Waterfall](https://startinfinity.s3.us-east-2.amazonaws.com/t/zqeUd4rpCH4mtqsKCDdu5BCanjP9GecjRMYW7Agi.png), [Agile](https://media.licdn.com/dms/image/v2/D4E12AQGVP6FfzYsrig/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1713362328326?e=2147483647&v=beta&t=M7EJfxO2o1DdxdmQ6xFjTBHTC-v6lHropNEQhseIy3c), [Scrum](https://www.nimblework.com/wp-content/uploads/2022/12/scrum-methodology.webp), [Kanban](https://www.diegocalvo.es/wp-content/uploads/2018/04/KANBAN-Methodology.png), [Lean](https://media.licdn.com/dms/image/C4E12AQHWEjyiS_SxKQ/article-cover_image-shrink_600_2000/0/1625735116083?e=2147483647&v=beta&t=Oti2PlxG-miZ0ma2KJ99luIYoYAtkfTjAvd9fwr3GBA), [DevOps](https://media.licdn.com/dms/image/v2/D5612AQH2nnE3jXGbcg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1703066071742?e=2147483647&v=beta&t=AxhSnP1A3ujubIYHvURwxsbMg4SViXsqTYPuGDrry-g), [RAD](https://kissflow.com/hs-fs/hubfs/Rapid-application-development.png?width=836&height=442&name=Rapid-application-development.png), [Spiral](https://www.intellectsoft.net/blog/wp-content/uploads/spiral-model-process-1024x844.jpg), [XP](https://i0.wp.com/thecorrelation.in/wp-content/uploads/2022/06/Extreme-Programming-XP-1024x548-8ca41d10.jpg?ssl=1)
 11. Про методології розробки ПЗ [[1]](https://wezom.com.ua/ua/blog/metodologija-razrabotki-programmnogo-obespechenija), [[2]](https://www.smart-it.com/uk/2021/08/12-best-software-development-methodologies-with-pros-and-cons/), [[3]](https://javarush.com/ua/groups/posts/uk.2443.vse-jsho-potrbno-znati-pro-metodolog-rozrobki-pz-trendi-principi-ta-pastki-dlja-novachkv), [[4]](https://uk.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%8F_%D1%80%D0%BE%D0%B7%D1%80%D0%BE%D0%B1%D0%BA%D0%B8_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F#%D0%9A%D0%BB%D0%B0%D1%81%D0%B8%D1%84%D1%96%D0%BA%D0%B0%D1%86%D1%96%D1%8F_%D0%B7%D0%B0_%D1%8F%D0%B4%D1%80%D0%B0%D0%BC%D0%B8)
 12. [About GitHub Projects](https://docs.github.com/en/github/managing-your-work-on-github/about-projects)
 13. [About Trello](https://trello.com/guide)
