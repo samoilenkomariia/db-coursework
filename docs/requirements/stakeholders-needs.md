@@ -61,6 +61,17 @@ _[Короткий опис того, з якими проектами пов'я
   - [Create Project](#CreateProject)
   - [Edit Project](#EditProject)
   - [Delete Project](#DeleteProject)
+  - [Add User to Project](#AddUserToProject)
+  - [Remove User from Project](#RemoveUserFromProject)
+  - [Edit Task](#EditTask)
+  - [Delete Task](#DeleteTask)
+  - [Comment Task](#CommentTask)
+  - [Filter Tasks](#FilterTasks)
+  - [Block Project](#BlockProject)
+  - [Unblock Project](#UnblockProject)
+  - [Ban User](#BanUser)
+  - [Unban User](#UnbanUser)
+  - [User Support](#UserSupport)
 
 ## Характеристика ділових процесів
 
