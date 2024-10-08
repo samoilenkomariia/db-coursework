@@ -62,6 +62,7 @@
   - [Delete Project](#DeleteProject)
   - [Add User to Project](#AddUserToProject)
   - [Remove User from Project](#RemoveUserFromProject)
+  - [Create Task](#CreateTask)
   - [Edit Task](#EditTask)
   - [Delete Task](#DeleteTask)
   - [Comment Task](#CommentTask)
