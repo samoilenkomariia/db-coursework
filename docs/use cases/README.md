@@ -176,10 +176,12 @@
     
     |Система|
     : Перевіряє наявність обов'язкових полів;
-    note right #ffaaaa
-    <b> Можлива
-    <b> InvalidDataException
+    
+    note right #lightcoral
+    * Може виникнути
+    <b>InvalidDataException</b>
     end note
+    
     : Створює нове завдання в проєкті;
     : Повідомляє інформацію про завдання користувачам,\n яким воно було призначене;
 
@@ -212,19 +214,21 @@
     
     |Система|
     : Перевіряє наявність обов'язкових полів;
-    note right #ffaaaa
-    <b> Можлива
-    <b> InvalidDataException
+    
+    note right #lightcoral
+    * Може виникнути
+    <b>InvalidDataException</b>
     end note
+    
     : Запитує підтвердження дії;
     
     |Користувач|
     : Натискає кнопку "Так";
-    note left #ffaaaa
-    <b> Можлива
-    <b> CancelException
+    
+    note left #lightcoral
+    * Може виникнути
+    <b>CancelException</b>
     end note    
-
 
     |Система|
     : Зберігає внесені користувачем зміни та \n відображає відредаговане завдання;
@@ -256,9 +260,10 @@
 
     |Користувач|
     : Натискає кнопку "Підтвердити";
-    note right #ffaaaa
-    <b> Можлива
-    <b> CancelException
+    
+    note left #lightcoral
+    * Може виникнути
+    <b>CancelException</b>
     end note
     
     |Система|
@@ -285,9 +290,10 @@
     start;
     : Пише коментар;
     : Натискає кнопку "Додати коментар";
-    note right #ffaaaa
-    <b> Можлива
-    <b> TaskNoExistException
+    
+    note left #lightcoral
+    * Може виникнути
+    <b>TaskNoExistException</b>
     end note
 
     |Система|
