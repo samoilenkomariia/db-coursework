@@ -177,6 +177,8 @@ ManagePermissions <.. UnblockProject : extends
 
 </center>
 
+## Сценарії використання
+
 | ID | <span id=BlockProject>`BlockProject`</span> |
 | :--- | :--- |
 | Назва: | Заблокувати проєкт |
