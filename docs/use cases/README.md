@@ -207,7 +207,8 @@ ManagePermissions <.. UnblockProject : extends
     |Система|
     :Перевіряє введені дані\nна валідність;
     note right #lightcoral
-        * Може виникнути\n<b>InvalidDataException</b>
+        * Може виникнути
+        <b>InvalidDataException</b>
     end note
     :Створює новий проєкт;
     :Повідомляє керівника команди\nпро успішне створення проєкту;
@@ -244,7 +245,8 @@ ManagePermissions <.. UnblockProject : extends
     |Система|
     :Перевіряє валідність\nвведених даних;
     note right #lightcoral
-        * Може виникнути\n<b>InvalidDataException</b>
+        * Може виникнути
+        <b>InvalidDataException</b>
     end note
     :Відображає вікно з кнопками\n"Скасувати" і "Підвердити";
     note right #lightcoral
