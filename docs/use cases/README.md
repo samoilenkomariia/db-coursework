@@ -625,7 +625,7 @@ ManagePermissions <.. UnblockProject : extends
     |Система|
     :Перевіряє валідність\nвведених даних;
     note right #lightcoral
-        * Може виникнути
+        Може виникнути
         <b>InvalidDataException</b>
     end note
     :Створює нове завдання в\nпроєкті;
@@ -676,7 +676,7 @@ ManagePermissions <.. UnblockProject : extends
     :Перевіряє чи правильно\nвведені дані;
     
     note right #lightcoral
-        * Може виникнути
+        Може виникнути
         <b>InvalidDataException</b>
     end note
     
@@ -684,7 +684,7 @@ ManagePermissions <.. UnblockProject : extends
     :Виводить вікно для\nпідтвердження змін з кнопками\n"Скасувати" і "Зберегти зміни";
 
     note left #lightcoral
-        * Може виникнути
+        Може виникнути
         <b>CancelException</b>
     end note    
     |Користувач|
@@ -729,7 +729,7 @@ ManagePermissions <.. UnblockProject : extends
     |Система|
     :Виводить вікно з кнопками\n"Скасувати" і "Видалити";
     note left #lightcoral
-        * Може виникнути
+        Може виникнути
         <b>CancelException</b>
     end note
 
@@ -777,7 +777,7 @@ ManagePermissions <.. UnblockProject : extends
     |Система|
     :Перевіряє чи існує завдання\nв системі;
      note left #lightcoral
-        * Може виникнути
+        Може виникнути
         <b>TaskDeletedException</b>
     end note
     :Зберігає коментар;
@@ -852,13 +852,13 @@ ManagePermissions <.. UnblockProject : extends
       |Адміністратор системи|
       :Натискає кнопку\n"Заблокувати";
       |Система|
-      :Відображає вікно зі спадним меню\nвибору причини блокування та кнопками\n"Скасувати" і "Підвердити";
+      :Відображає вікно зі спадним меню\nвибору причини блокування та кнопками\n"Скасувати" і "Заблокувати";
       note right #lightcoral
-         * Може виникнути
+         Може виникнути
          <b>CancelException</b>
       end note
       |Адміністратор системи|
-      :Обирає причину\nблокування та натискає кнопку\n“Підтвердити”;
+      :Обирає причину\nблокування та натискає кнопку\n“Заблокувати”;
       |Система|
       :Змінює стан проєкту на\n“Заблокований”;
       :Сповіщає адміністратора\nпро блокування проєкту;
@@ -894,7 +894,7 @@ ManagePermissions <.. UnblockProject : extends
       |Система|
       :Відображає вікно з кнопками\n"Скасувати" і "Підвердити";
       note right #lightcoral
-        * Може виникнути
+        Може виникнути
         <b>CancelException</b>
       end note
       |Адміністратор системи|
@@ -938,7 +938,7 @@ ManagePermissions <.. UnblockProject : extends
       |Система|
       :Відображає вікно зі спадним меню\nвибору причини блокування та кнопками\n"Скасувати" і "Підвердити";
       note right #lightcoral
-        * Може виникнути
+        Може виникнути
         <b>CancelException</b>
       end note
       |Адміністратор системи|
@@ -982,7 +982,7 @@ ManagePermissions <.. UnblockProject : extends
       |Система|
       :Відображає вікно з кнопками\n"Скасувати" і "Підвердити";
       note right #lightcoral
-        * Може виникнути
+        Може виникнути
         <b>CancelException</b>
       end note
       |Адміністратор системи|
