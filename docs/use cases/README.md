@@ -179,6 +179,26 @@ ManagePermissions <.. UnblockProject : extends
 
 ## Сценарії використання
 
+  - [Create Account](#CreateAccount)
+  - [Log Into Account](#LogIntoAccount)
+  - [Edit Profile](#EditProfile)
+  - [Delete Profile](#DeleteProfile)
+  - [Create Project](#CreateProject)
+  - [Edit Project](#EditProject)
+  - [Delete Project](#DeleteProject)
+  - [Add User to Project](#AddUserToProject)
+  - [Remove User from Project](#RemoveUserFromProject)
+  - [Create Task](#CreateTask)
+  - [Edit Task](#EditTask)
+  - [Delete Task](#DeleteTask)
+  - [Comment Task](#CommentTask)
+  - [Filter Tasks](#FilterTasks)
+  - [Block Project](#BlockProject)
+  - [Unblock Project](#UnblockProject)
+  - [Ban User](#BanUser)
+  - [Unban User](#UnbanUser)
+  - [User Support](#UserSupport)
+    
 ---
 
 | ID                 | <span id=CreateAccount>`CreateAccount`</span>                                                                                                                                                                                                                                                                                                                                                       |
@@ -818,6 +838,7 @@ ManagePermissions <.. UnblockProject : extends
 
     |Користувач|
         stop;
+@enduml
   
 ---
 
