@@ -324,7 +324,7 @@ ManagePermissions <.. UnblockProject : extends
      |Користувач|
        stop;
 
-@enduml;
+@enduml
 
 ---
 
