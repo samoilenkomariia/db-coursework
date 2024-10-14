@@ -996,8 +996,8 @@ ManagePermissions <.. UnblockProject : extends
       |Користувач|
       :Вводить тему,\nопис звернення та\nприкладає зображення;
       |Система|
-      :Перевіряє валідність вкладеного файлу;
-            note right #lightcoral
+      :Перевіряє валідність\nвкладеного файлу;
+      note right #lightcoral
         Може виникнути
         <b>InvalidFileException</b>
       end note
