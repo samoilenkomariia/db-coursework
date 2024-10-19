@@ -5,6 +5,8 @@
 - ER-модель
 - реляційна схема
 
+## Модель бізнес-об'єктів
+
 @startuml
 entity Project #14f749
 entity Project.id
@@ -129,6 +131,8 @@ Task "1,1" -r- "0,*" Assignee
 
 @enduml
 
+## ER-модель
+
 @startuml
 
 entity Member {
@@ -227,7 +231,8 @@ Attachment "0,*" --r "1,1" Task
 Label "0,*" --u "1,1" Task
 Tag "1,1" --u "0,*" Label
 Role "1,1" -- "0,*" Grant
-
 Grant "0,*" -- "1,1" Permission
 
 @enduml
+
+## Реляційна схема
