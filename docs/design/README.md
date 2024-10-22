@@ -150,7 +150,6 @@ Task "1,1" -r- "0,*" Assignee
 >
 
 @startuml
-
 entity Member {
     id: number
   }
@@ -209,8 +208,6 @@ package TaskManagement {
   }
 
   entity Label {
-    id: number
-    name: text
   }
 }
 
@@ -247,8 +244,8 @@ Attachment "0,*" --r "1,1" Task
 Label "0,*" --u "1,1" Task
 Tag "1,1" --u "0,*" Label
 Role "1,1" -- "0,*" Grant
-Grant "0,*" -- "1,1" Permission
 
+Grant "0,*" -- "1,1" Permission
 @enduml
 
 </center> 
