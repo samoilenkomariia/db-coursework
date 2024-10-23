@@ -252,4 +252,4 @@ Grant "0,*" -- "1,1" Permission
 
 ## Реляційна схема
 
-![Реляційна схема](./ProMan_EER.png)
+![Реляційна схема](./relational-schema.png)
