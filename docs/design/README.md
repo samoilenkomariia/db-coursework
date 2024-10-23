@@ -164,7 +164,7 @@ package UserManagement {
     name: text
     email: text
     password: text
-    avatar: image
+    profilePicture: text
     status: text
   }
 }
@@ -174,7 +174,7 @@ package ProjectManagement {
     id: number
     name: text
     description: text
-    creationDate: date
+    creationDate: datetime
     status: text
   }
 }
@@ -186,20 +186,20 @@ package TaskManagement {
     status: text
     description: text
     startDate: date
-    deadline: date
+    dueDate: date
   }
 
   entity TaskComment {
     id: number
     content: text
-    datetime: datetime
+    creationDate: datetime
   }
 
   entity Attachment {
     id: number
     fileName: text
     fileType: text
-    fileSize: text
+    fileSize: number
   }
 
   entity Tag {
@@ -232,7 +232,7 @@ package PermissionManagement {
 }
 
 
-User "1,1" -- "0,*" Member
+User "1,1" -- "1,*" Member
 Member "0,*" --d "1,1" Role
 Member "0,*" -- "1,1" Project
 Member "1,1" --r "0,*" Assignee
