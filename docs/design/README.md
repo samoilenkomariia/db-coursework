@@ -29,13 +29,13 @@ entity Task #14f749
 
 entity TaskComment#14f749
 entity Attachment#14f749
-entity Label#14f749
+entity TasksTag#14f749
 entity Tag#14f749
 
 Task "1,1" -d- "0,*" Attachment
 Task "1,1" -d- "0,*" TaskComment
-Task "1,1" -d- "0,*" Label
-Tag "1,1" -u- "0,*" Label
+Task "1,1" -d- "0,*" TasksTag
+Tag "1,1" -u- "0,*" TasksTag
 
 entity Task.id
 entity Task.name
@@ -63,7 +63,7 @@ entity Attachment.fileName
 entity Attachment.fileType
 entity Attachment.fileSize
 Attachment.id -u-* Attachment
-Attachment.fileName -u-* Attachment
+Attachment.link -u-* Attachment
 Attachment.fileType -u-* Attachment
 Attachment.fileSize -u-* Attachment
 
@@ -125,7 +125,7 @@ User.status -u-* User
 
 
 Task "0,*" -u- "1,1" Project
-Member "0,*" -l- "1,1" Project
+Member "1,*" -l- "1,1" Project
 Member "0,*" -d- "1,1" User
 Member "0,*" -r- "1,1" Role
 Member "0,*" -l- "1,1" Assignee
@@ -192,7 +192,7 @@ package TaskManagement {
 
   entity Attachment {
     id: number
-    fileName: text
+    link: text
     fileType: text
     fileSize: number
   }
@@ -202,7 +202,7 @@ package TaskManagement {
     name: text
   }
 
-  entity Label {
+  entity TasksTag {
   }
 }
 
@@ -236,8 +236,8 @@ Task "0,*" --u "1,1" Project
 
 TaskComment "0,*" --u "1,1" Task
 Attachment "0,*" --r "1,1" Task
-Label "0,*" --u "1,1" Task
-Tag "1,1" --u "0,*" Label
+TasksTag "0,*" --u "1,1" Task
+Tag "1,1" --u "0,*" TasksTag
 Role "1,1" -- "0,*" Grant
 
 Grant "0,*" -- "1,1" Permission
@@ -247,4 +247,4 @@ Grant "0,*" -- "1,1" Permission
 
 ## Реляційна схема
 
-![Реляційна схема](./relational-schema.png)
+![Реляційна схема](./relational-schema-ProMan.png)
