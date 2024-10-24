@@ -47,21 +47,21 @@ entity Task.name
 entity Task.status
 entity Task.description
 entity Task.startDate
-entity Task.deadline
+entity Task.dueDate
 
 Task.id --* Task
 Task.name --* Task
 Task.status --* Task
 Task.description --* Task
 Task.startDate --* Task
-Task.deadline --* Task
+Task.dueDate --* Task
 
 entity TaskComment.id
 entity TaskComment.content
-entity TaskComment.datetime
+entity TaskComment.creationDate
 TaskComment.id --* TaskComment
 TaskComment.content --* TaskComment
-TaskComment.datetime --* TaskComment
+TaskComment.creationDate --* TaskComment
 
 entity Attachment.id
 entity Attachment.fileName
