@@ -229,7 +229,7 @@ package PermissionManagement {
 
 User "1,1" -- "0,*" Member
 Member "0,*" --d "1,1" Role
-Member "1,*" -- "1,1" Project
+Member "0,*" -- "1,1" Project
 Member "1,1" --r "0,*" Assignee
 Task "1,1" --u "0,*" Assignee
 Task "0,*" --u "1,1" Project
