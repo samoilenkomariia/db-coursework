@@ -1,0 +1,155 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// PERMISSION_MANAGEMENT
+enum RoleName {
+  Administrator
+  Manager
+  Worker
+}
+
+model Permission {
+  id     Int     @id @default(autoincrement())
+  name   String  @unique @db.VarChar(64)
+  grants Grant[]
+}
+
+model Role {
+  id          Int      @id @default(autoincrement())
+  name        RoleName
+  description String?  @db.VarChar(64)
+
+  members Member[]
+  grants  Grant[]
+}
+
+model Grant {
+  roleId       Int @map("role_id")
+  permissionId Int @map("permission_id")
+
+  role       Role       @relation(fields: [roleId], references: [id])
+  permission Permission @relation(fields: [permissionId], references: [id])
+
+  @@id([roleId, permissionId])
+}
+
+// USER_MANAGEMENT
+enum UserStatus {
+  BANNED
+  NOT_BANNED
+}
+
+model User {
+  id             Int        @id @default(autoincrement())
+  name           String     @db.VarChar(255)
+  email          String     @unique @db.VarChar(255)
+  password       String     @db.VarChar(255)
+  profilePicture String?    @db.VarChar(255)
+  status         UserStatus @default(NOT_BANNED)
+
+  members   Member[]
+  assignees Assignee[]
+}
+
+// TASK_MANAGEMENT
+model Task {
+  id          Int       @id @default(autoincrement())
+  name        String    @db.VarChar(64)
+  status      String    @db.VarChar(16)
+  description String?   @db.VarChar(512)
+  startDate   DateTime  @db.Timestamp()
+  dueDate     DateTime? @db.Timestamp()
+  projectId   Int
+
+  comments    TaskComment[]
+  attachments Attachment[]
+  tags        TasksTag[]
+  assignees   Assignee[]
+  project     Project       @relation(fields: [projectId], references: [id])
+}
+
+model TaskComment {
+  id           Int      @id @default(autoincrement())
+  content      String   @db.VarChar(1024)
+  creationDate DateTime @db.Timestamp()
+  taskId       Int
+  authorId     Int
+
+  author Member @relation(fields: [authorId], references: [id])
+  task   Task   @relation(fields: [taskId], references: [id])
+}
+
+model Attachment {
+  id       Int    @id @default(autoincrement())
+  link     String @db.VarChar(64)
+  fileType String @db.VarChar(16)
+  fileSize Int
+
+  taskId Int
+
+  task Task @relation(fields: [taskId], references: [id])
+}
+
+model Tag {
+  id       Int        @id @default(autoincrement())
+  name     String     @db.VarChar(16)
+  color    String     @db.VarChar(16)
+  TasksTag TasksTag[]
+}
+
+model TasksTag {
+  id     Int @id @default(autoincrement())
+  taskId Int
+  tagId  Int
+
+  task Task @relation(fields: [taskId], references: [id])
+  tag  Tag  @relation(fields: [tagId], references: [id])
+
+  @@unique([taskId, tagId])
+}
+
+model Assignee {
+  id     Int @id @default(autoincrement())
+  userId Int
+  taskId Int
+
+  user User @relation(fields: [userId], references: [id])
+  task Task @relation(fields: [taskId], references: [id])
+
+  @@unique([userId, taskId])
+}
+
+model Member {
+  id        Int @id @default(autoincrement())
+  userId    Int
+  projectId Int
+  roleId    Int @map("role_id")
+
+  user        User?         @relation(fields: [userId], references: [id])
+  role        Role?         @relation(fields: [roleId], references: [id])
+  TaskComment TaskComment[]
+  project     Project       @relation(fields: [projectId], references: [id])
+}
+
+// PROJECT_MANAGEMENT
+enum ProjectStatus {
+  ACTIVE
+  INACTIVE
+}
+
+model Project {
+  id           Int           @id @default(autoincrement())
+  name         String        @db.VarChar(64)
+  description  String?       @db.VarChar(512)
+  creationDate DateTime      @db.Timestamp()
+  status       ProjectStatus
+
+  tasks   Task[]
+  members Member[]
+}
